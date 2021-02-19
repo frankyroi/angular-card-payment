@@ -1,0 +1,26 @@
+
+<!-- Toolbar -->
+<div class="toolbar" role="banner" (click)="home()">
+ 
+  <span>Credit card Payment</span>
+    <div class="spacer"></div>
+    
+</div>
+
+<div class="content" role="main">
+  
+  <div class="card highlight-card card card-small" (click)="navigate()">
+    <span>Make Payment</span>
+  </div>
+  
+
+</div>
+
+<!-- <div class="card card-large">
+  store:
+
+  {{ creditCard$ | async | json }}
+</div> -->
+
+
+<router-outlet></router-outlet>
